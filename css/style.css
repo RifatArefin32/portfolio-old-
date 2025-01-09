@@ -446,14 +446,22 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; 
-  box-sizing: border-box;
-  overflow-x: hidden;}
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+    box-sizing: border-box;
+    overflow-x: hidden; /* Hides horizontal scroll */
+    scrollbar-width: none; /* Firefox: Hide scrollbar */
+  }
+  
+  /* For WebKit browsers (Chrome, Safari, Edge) */
+  .container::-webkit-scrollbar {
+    display: none; /* Hides scrollbar */
+  }
+  
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
