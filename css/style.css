@@ -12662,12 +12662,13 @@ h5,
 }
 
 .ftco-about ul.about-info li {
-  list-style: none;
-  margin-bottom: 10px;
+  list-style:none;
+  margin-bottom: 0px;
 }
 
 .ftco-about ul.about-info li span {
   width: calc(100% - 130px);
+  font-size: small;
 }
 
 .ftco-about ul.about-info li span:first-child {
