@@ -12667,14 +12667,14 @@ h5,
 }
 
 .ftco-about ul.about-info li span {
-  width: calc(100% - 130px);
-  font-size: small;
+  width: 60%;
+  font-size: medium;
 }
 
 .ftco-about ul.about-info li span:first-child {
   font-weight: 600;
   color: #fff;
-  width: 130px;
+  width: 40%;
 }
 
 .ftco-about .counter-wrap .text p {
